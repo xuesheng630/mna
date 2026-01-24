@@ -32,7 +32,7 @@ jobs:
             zy:/ \
             z1:/ \
             --progress \
-            --transfers=4 \
+            --transfers=3 \
             --checkers=8 \
             --tpslimit=8 \
             --retries 20 \
