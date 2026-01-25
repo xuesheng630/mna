@@ -39,4 +39,6 @@ jobs:
             --transfers=4 \
             --tpslimit=10 \
             --retries=20 \
+            --stats=1m \
+            --stats-one-line \
             --low-level-retries=100
