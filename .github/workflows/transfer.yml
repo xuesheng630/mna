@@ -36,7 +36,7 @@ jobs:
             mna:/ \
             mcn:/ \
             --progress \
-            --transfers=3 \
+            --transfers=4 \
             --multi-thread-streams 4 \
             --drive-chunk-size 128M \
             --multi-thread-cutoff 64M \
