@@ -39,6 +39,7 @@ jobs:
             --transfers=4 \
             --multi-thread-streams 4 \
             --drive-chunk-size 128M \
+            --stats=30s \
             --multi-thread-cutoff 64M \
             --buffer-size 32M \
             --tpslimit 6 \
