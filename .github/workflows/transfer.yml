@@ -2,17 +2,9 @@ name: OneDrive Transfer
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows:
-      - OneDrive Relay
-    types:
-      - completed
 
 jobs:
   transfer:
-    if: >
-      github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion != 'failure'
     runs-on: ubuntu-latest
     timeout-minutes: 350
 
